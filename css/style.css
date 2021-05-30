@@ -1,0 +1,17 @@
+body{
+	background-image: url(../img/background.jpg);
+	background-repeat: round;
+	color: #fff;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+figure{
+	text-align: center;
+}
+img{
+	border-style: 6px solid;
+}
