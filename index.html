@@ -4,42 +4,67 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 	<title>Primeiro Site Html</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="img/Icone_do_site-removebg-preview.png">
+	<!--Usei o logo do meu site do wordpress porque é mais rapido-->
 
 </head>
 <body>
+	<header class="fixo">
+		<h1 class="imglogo"><img src="img/WD_logo_branco.png"></h1>
+		<nav>
+			<ul id="menu">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="index.html#html">HTML</a></li>
+				<li><a href="index.html#css">CSS</a></li>
+				<li><a href="javascript.html">JavaScript</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
 
-	<h1>Introdução ao HTML</h1>
-	<p>HTML é a linguagem de marcação padrão para a criação de páginas da web.</p>
-	<br>
-	<h2>O que é HTML?</h2>
-	<ul>
-	  <li>HTML significa Hyper Text Markup Language</li>
-	  <li>HTML é a linguagem de marcação padrão para a criação de páginas da web</li>
-	  <li>HTML descreve a estrutura de uma página da web</li>
-	  <li>HTML consiste em uma série de elementos</li>
-	  <li>Os elementos HTML informam ao navegador como exibir o conteúdo</li>
-	  <li>Os elementos HTML identificam partes de conteúdo como "isto é um título", "isto é um parágrafo", "isto é um link", etc.</li>
-	</ul>  
-	<br>
-	<h2>Estrutura básica de um HTML</h2>
-	<figure>
-		<img src="img/base_html.jpg" alt="Estrutura básica de um HTML" width="500" height="250">
-	</figure>
-	<br>
-	<h2>Saíba mais sobre o HTML <a href="https://www.w3schools.com/html/default.asp">aqui</a></h2>
-	<br>
-	<h1>Introdução de CSS</h1>
-		<p>Como já vimos anteriormente, as CSS são as Cascading Style Sheets (Folhas de Estilo em Cascata). Elas são usadas para configurar um resultado visual dos elementos HTML.</p>
-	<br>
-	<h2>Tipos de CSS</h2>
-		<ul>
-			<li>Inline - usando o styleatributo dentro dos elementos HTML</li>
-			<li>Interno - usando um <style>elemento na <head>seção</li>
-			<li>Externo - usando um <link> elemento para vincular a um arquivo CSS externo</li>
-		</ul>
+	<div class="container">
+		<div id="html">
+				<p>HTML é a linguagem de marcação padrão para a criação de páginas da web.</p>
+				<br>
+				<h2>O que é HTML?</h2>
+				<ul>
+				  <li>HTML significa Hyper Text Markup Language</li>
+				  <li>HTML é a linguagem de marcação padrão para a criação de páginas da web</li>
+				  <li>HTML descreve a estrutura de uma página da web</li>
+				  <li>HTML consiste em uma série de elementos</li>
+				  <li>Os elementos HTML informam ao navegador como exibir o conteúdo</li>
+				  <li>Os elementos HTML identificam partes de conteúdo como "isto é um título", "isto é um parágrafo", "isto é um link", etc.</li>
+				</ul>  
+				<br>
+				<h2>Estrutura básica de um HTML</h2>
+				<figure>
+					<img src="img/base_html.jpg" alt="Estrutura básica de um HTML" width="500" height="250">
+				</figure>
+				<br>
+				<h2>Saíba mais sobre o HTML <a href="https://www.w3schools.com/html/default.asp">aqui</a></h2>
+		</div>
+		<div id="css">
+			<h1>Introdução de CSS</h1>
+				<p>Como já vimos anteriormente, as CSS são as Cascading Style Sheets (Folhas de Estilo em Cascata). Elas são usadas para configurar um resultado visual dos elementos HTML.</p>
+			<br>
+			<h2>Tipos de CSS</h2>
+				<ul>
+					<li>Inline - usando o styleatributo dentro dos elementos HTML</li>
+					<li>Interno - usando um style elemento na head seção</li>
+					<li>Externo - usando um link elemento para vincular a um arquivo CSS externo</li>
+				</ul>
+			<h2>Conheça mais sobre JavaScript</h2>
+			<p><a href="javascript.html">Clique aqui!</a></p>
+			<p><a href="posicionamento.html">Ver posicionamentos em css</a></p>
+		</div>
+	</div>
 
-
+	<footer class="rodape">
+		<p id="rodape_tit">Rodapé</p>
+	</footer>
 </body>
 </html>
 
